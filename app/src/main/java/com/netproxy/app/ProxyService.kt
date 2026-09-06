@@ -52,7 +52,7 @@ class ProxyService : Service() {
         val largeIconBitmap = BitmapFactory.decodeResource(resources, R.mipmap.ic_launcher)
        
         val notification: Notification = NotificationCompat.Builder(this, CHANNEL_ID)
-            .setContentTitle("NetProxy Running..")
+            .setContentTitle("Proxy Worker")
             .setContentText("Server is active on port $port")
             .setSmallIcon(android.R.drawable.ic_dialog_info)
             .setLargeIcon(largeIconBitmap)
