@@ -157,7 +157,7 @@
             android:layout_marginLeft="4dp"
             android:fontFamily="monospace"
             android:lineSpacingMultiplier="1.2"
-            android:text="http://127.0.0.1:8080/?key=7777&amp;html&amp;url=\nnetproxy://action?start=10"
+            android:text="http://127.0.0.1:8080/?key=7777&amp;html&amp;url=\nproxy://action?start=10"
             android:textColor="#CBD868"
             android:textSize="12sp" />
 
