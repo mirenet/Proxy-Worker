@@ -19,7 +19,7 @@
             android:layout_marginLeft="4dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="36dp"
-            android:text="Proxy Worker"
+            android:text="Local Host"
             android:textColor="#CBD868"
             android:textSize="20sp"
             android:fontFamily="sans-serif-medium" />
@@ -157,7 +157,7 @@
             android:layout_marginLeft="4dp"
             android:fontFamily="monospace"
             android:lineSpacingMultiplier="1.2"
-            android:text="http://127.0.0.1:8080/?key=7777&amp;url=\nproxy://action?start=10"
+            android:text="http://127.0.0.1:8080/?key=7777\nproxy://action?start=10"
             android:textColor="#CBD868"
             android:textSize="12sp" />
 
