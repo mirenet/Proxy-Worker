@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity() {
     private fun handleNetProxyIntent(intent: Intent) {
         if (Intent.ACTION_VIEW == intent.action) {
             val uri: Uri? = intent.data
-            if (uri != null && uri.scheme == "netproxy") {
+            if (uri != null && uri.scheme == "proxy") {
                 var startParam = uri.getQueryParameter("start")
 
                 if (startParam == null) {
