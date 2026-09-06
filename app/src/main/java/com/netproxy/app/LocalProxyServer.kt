@@ -14,8 +14,8 @@ import java.net.URL
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
 
-class LocalProxyServer(port: Int, private val secretKey: String, private val context: Context) : NanoHTTPD(port) {
-    private val mainHandler = Handler(Looper.getMainLooper())
+class LocalProxyServer(port: Int, private val secretKey: String, private val context: Context) : NanoHTTPD("127.0.0.1", port) {
+private val mainHandler = Handler(Looper.getMainLooper())
 
     override fun serve(session: IHTTPSession): Response {
         val parms = session.parms
