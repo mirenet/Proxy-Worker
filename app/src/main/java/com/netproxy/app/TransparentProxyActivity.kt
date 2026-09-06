@@ -21,7 +21,7 @@ class TransparentProxyActivity : AppCompatActivity() {
     private fun handleIntent(incomingIntent: Intent) {
         if (Intent.ACTION_VIEW == incomingIntent.action) {
             val uri = incomingIntent.data
-            if (uri != null && uri.scheme == "netproxy") {
+            if (uri != null && uri.scheme == "proxy") {
                 val port = 8080
                 val password = "7777"
 
